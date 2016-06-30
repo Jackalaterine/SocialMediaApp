@@ -10,4 +10,8 @@ class MyApp < Sinatra::Base
     erb :quiz
   end
 
+  get 'end_page' do
+    erb :end_page
+  end
+
 end
