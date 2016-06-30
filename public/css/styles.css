@@ -1,12 +1,27 @@
 header {
   font-size: 50pt;
-  margin-left: 36.5%;
+  margin-left: 35%;
+  font-family: 'Lucida Grande', sans-serif;
+  /*color: #660066;*/
+  background-color: #ffffff;
+  width: 23.5%
 }
 
 h1 {
-  margin-left: 35%;
+  margin-left: 34%;
+  font-family: 'Lucida Grande', sans-serif;
+  color: #660066;
+  background-color: #ffffff
+  
 }
 
 h2 {
-  margin-left: 22%
+  margin-left: 20.5%;
+  font-family: 'Lucida Grande', sans-serif;
+  color: #660066;
+  background-color: #ffffff
+}
+
+button {
+  margin-left: 44%;
 }
