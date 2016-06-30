@@ -10,6 +10,10 @@ class MyApp < Sinatra::Base
     erb :quiz
   end
 
+  post '/quiz' do
+   erb :quiz
+  end
+
   get '/end_page' do
     erb :end_page
   end
