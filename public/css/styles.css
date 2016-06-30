@@ -1,7 +1,12 @@
 header {
   font-size: 50pt;
+  margin-left: 36.5%;
 }
 
 h1 {
-  float: center;
+  margin-left: 35%;
+}
+
+h2 {
+  margin-left: 22%
 }
