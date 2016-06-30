@@ -12,4 +12,5 @@ def quiz (content, audience, importance)
     elsif content=="image" && audience=="everyone" && importance=="10"
       @quiz = "Instagram or/and Twitter"
   end
+  @quiz
 end
