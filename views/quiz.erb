@@ -2,18 +2,20 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>title</title>
+    <title>Quiz</title>
   </head>
   <body>
-
-  </body>
+    <h1> What content do you want to upload?</h1>
 
   <form>
-    <%= @quiz %>
     <input type="radio" name="content" value="image" checked> Image <br>
     <input type="radio" name="content" value="text" checked> Text <br>
   </form>
-
-
+    <h3>When you're done Submit it</h3>
+  <form>
+    <%= @quiz %>
+    <button type="button">Submit</button>
+  </form>
+</body>
 
 </html>
