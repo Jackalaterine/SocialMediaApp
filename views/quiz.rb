@@ -1,15 +1,15 @@
 def quiz
   if "picture" && "family and friends" && "1"
-      return "Facebook"
+      @quiz"Facebook"
     elsif "picture" && "family and friends" && "5"
-      return "Instagram"
+      @quiz "Instagram"
     elsif "picture" && "family and friends" && "10"
-      return "Facebook or/and Instagram"
+      @quiz "Facebook or/and Instagram"
     elsif "picture" && "everyone" && "1"
-      return "Instagram"
+      @quiz "Instagram"
     elsif "picture" && "everyone" && "5"
-      return "Twitter"
+      @quiz "Twitter"
     elsif "picture" && "everyone" && "10"
-      return "Instagram or/and Twitter"
+      @quiz "Instagram or/and Twitter"
   end
 end
