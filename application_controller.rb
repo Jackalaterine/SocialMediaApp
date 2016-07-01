@@ -10,11 +10,12 @@ class MyApp < Sinatra::Base
     erb :quiz
   end
 
-  post '/quiz' do
-   erb :quiz
-  end
-
-  get '/end_page' do
+  post '/end_page' do
+    params={:content =>"con", :audience =>"aud", :importance =>"imp"}
+    con=params[:content]
+    aud=params[:audience]
+    imp=params[:importance]
+    @quiz=quiz(content,audience,importance)
     erb :end_page
   end
 
