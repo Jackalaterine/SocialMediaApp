@@ -1,31 +1,64 @@
 @import url(https://fonts.googleapis.com/css?family=Rancho|Rock+Salt);
-header {
+h5 {
+  text-align: center;
   font-size: 48pt;
-  margin-left: 32%;
+  margin-bottom: 5%;
+  /*margin: 0 auto;*/
   font-family: 'Rock Salt', cursive;
-  /*color: #660006;*/
+  /*color: #660066;*/
   background-color: #ffffff;
-  width: 28.5%;
+  /*width: 28.5%;*/
 }
 
 h1 {
-  font-size: 55px;
-  margin-left: 35%;
+  text-align: center;
+  height: 20%;
+  font-size: 50px;
+  margin: 0 auto;
   font-family: 'Rancho', cursive;
-  color: #660066;
+  /*color: #660066;*/
   background-color: #ffffff;
-  width: 21.0%;
+  width: 32%
+}
+a {
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+button {
+  margin: 0 auto;
+  background-color: #9933ff;
+   border: 1px solid;
+   font-size: 24px;
+   color: white;
+   padding: 15px 32px;
+   text-align: center;
+   text-decoration: none;
+   /*display: inline-block;*/
 }
 
-h2 {
-  font-size: 50px;
-  margin-left: 31%;
+form {
+  width: 32%;
+  background-color: #ffffff;
+  margin: 0 auto;
+  font-size: 40px;
   font-family: 'Rancho', cursive;
-  color: #660066;
+}
+h2{
+  text-align: center;
+  height: 20%;
+  font-size: 50px;
+  margin: 0 auto;
+  font-family: 'Rancho', cursive;
   background-color: #ffffff;
   width: 32%
 }
 
-button {
-  margin-left: 44%;
+h3 {
+  text-align: center;
+  height: 20%;
+  font-size: 50px;
+  font-family: 'Rancho', cursive;
+  background-color: #ffffff;
+  /*width: 32%*/
 }
