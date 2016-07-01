@@ -1,26 +1,29 @@
+@import url(https://fonts.googleapis.com/css?family=Rancho|Rock+Salt);
 header {
-  font-size: 50pt;
-  margin-left: 35%;
-  font-family: 'Lucida Grande', sans-serif;
-  /*color: #660066;*/
+  font-size: 48pt;
+  margin-left: 32%;
+  font-family: 'Rock Salt', cursive;
+  /*color: #660006;*/
   background-color: #ffffff;
-  width: 23.5%
+  width: 28.5%;
 }
 
 h1 {
-  margin-left: 34%;
-  font-family: 'Lucida Grande', sans-serif;
+  font-size: 55px;
+  margin-left: 35%;
+  font-family: 'Rancho', cursive;
   color: #660066;
   background-color: #ffffff;
-  width: 27%
+  width: 21.0%;
 }
 
 h2 {
-  margin-left: 20.5%;
-  font-family: 'Lucida Grande', sans-serif;
+  font-size: 50px;
+  margin-left: 31%;
+  font-family: 'Rancho', cursive;
   color: #660066;
   background-color: #ffffff;
-  width: 30%
+  width: 32%
 }
 
 button {
