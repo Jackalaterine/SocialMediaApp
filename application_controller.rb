@@ -1,7 +1,9 @@
 require 'bundler'
 Bundler.require
+require_relative 'models/quiz.rb'
 
 class MyApp < Sinatra::Base
+
   get '/' do
     erb :index
   end
@@ -10,13 +12,13 @@ class MyApp < Sinatra::Base
     erb :quiz
   end
 
+
   post '/end_page' do
-    params={:content =>"con", :audience =>"aud", :importance =>"imp"}
+
     con=params[:content]
     aud=params[:audience]
     imp=params[:importance]
-    @quiz=quiz(content,audience,importance)
+    @quiz = quiz(con,aud,imp)
     erb :end_page
   end
-
 end
