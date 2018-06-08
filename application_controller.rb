@@ -18,7 +18,8 @@ class MyApp < Sinatra::Base
     con=params[:content]
     aud=params[:audience]
     imp=params[:importance]
-    @quiz = quiz(con,aud,imp)
+    pur=params[:purpose]
+    @quiz = quiz(con,aud,imp,pur)
     erb :end_page
   end
 end
